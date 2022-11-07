@@ -1,0 +1,33 @@
+.cards-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  justify-content: center;
+}
+
+.card {
+  margin-left: 5px;
+  margin-bottom: 15px;
+  max-width: 200px;
+
+  &__title {
+    font-weight: bold;
+    color: #393f5b;
+    min-height: 40px;
+  }
+
+  &__add-to-selected-icon {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    top: 40px;
+    left: 160px;
+    cursor: pointer;
+  }
+  &__add-to-selected-icon.not-selected-icon {
+    background-image: url(./img/not-selected.svg);
+  }
+  &__add-to-selected-icon.selected-icon {
+    background-image: url(./img/selected.svg);
+  }
+}

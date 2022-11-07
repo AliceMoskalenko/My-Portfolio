@@ -1,0 +1,22 @@
+.header{
+background-color: #E0CFFC;
+}
+
+.header-content-wrap{
+display: flex;
+align-items: center;
+max-width: 100%;
+max-height: 150px;
+justify-content: space-between;
+padding: 0 400px 0 400px;
+}
+
+.website-logo{
+max-width: 200px;
+max-height: 200px;
+padding: 50px 0 50px;
+
+}
+.hidden{
+    display: none;
+}

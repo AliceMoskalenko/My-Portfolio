@@ -1,0 +1,105 @@
+.cards-section{
+    padding-top: 50px;
+}
+
+.visit-card-wrapper{
+    display: flex;
+    flex-wrap: wrap;   
+}
+
+.visit-card{
+border: solid #432874 1px;
+border-radius: 3px;
+padding: 30px;
+margin: 30px;
+display: flex;
+flex-direction: column;
+align-items: center;
+min-width: 320px;
+max-width: 320px;
+// position: absolute;
+}
+.card-decorative-element{
+    position: absolute;
+    display: inline-block;
+}
+
+.card-decorative-element::after{
+    content: '';
+    background-color: #432874;
+    bottom: 60px;
+    right: 0;
+height: 60px;
+width: 320px;
+position: relative;
+display: inline-block;
+}
+.card-content{
+    color: #160D27;
+    display: flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 10px;
+font-weight: 600;
+}
+.card-content-user-data{
+    font-weight: 300;
+}
+
+.cards-btn-wrap{
+padding-top: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.edit-crad-content{
+    margin: 10px;
+
+}
+
+.card-close-btn{
+    position: relative;
+    bottom: 50px;
+    left: 130px;
+    width: 50px;
+    height: 40px;
+    cursor: pointer
+}
+
+.card-close-btn::before {
+    content: "";
+    width: 40px;
+    height: 2px;
+    position: relative;
+    display: inline-block;
+    background-color: white;
+    transform: rotate(45deg);
+
+  }
+  .card-close-btn::after{
+    content: "";
+    width: 40px;
+    height: 2px;
+    position: relative;
+    display: inline-block;
+    background-color: white;
+ 
+    bottom: 23px;
+transform: rotate(-45deg);
+  }
+
+  .open-editing-btns{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+  }
+
+  .confirm-editing-card-btn{
+      margin: 10px auto;
+  }
+
+  .selector-editing{
+      margin: 10px auto;
+  }

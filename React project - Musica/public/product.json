@@ -1,0 +1,81 @@
+[  {
+        "name": "Talor Swift: Lover",
+        "price": "00.01",
+        "url": "./img/Lover.jpg",
+        "id": "0001",
+        "colour": "pink"
+
+    },
+    {
+        "name": "Talor Swift: Evermore",
+        "price": "00.02",
+        "url": "./img/Evermore.png",
+        "id": "0002",
+        "colour": "orange"
+
+    },
+    {
+        "name": "Sea Wolf: Old world romance",
+        "price": "00.03",
+        "url": "./img/Sea_wolf.jpg",
+        "id": "0003",
+        "colour": "blue"
+
+    },
+    {
+        "name": "Talor Swift: Folklore",
+        "price": "00.04",
+        "url": "./img/Folklore.png",
+        "id": "0004",
+        "colour": "gray"
+
+    },
+    {
+        "name": "Talor Swift: Red",
+        "price": "00.05",
+        "url": "./img/Red.png",
+        "id": "0005",
+        "colour": "red"
+
+    },
+    {
+        "name": "Halsey: Badlands",
+        "price": "00.06",
+        "url": "./img/Badlands.jpg",
+        "id": "0006",
+        "colour": "pink"
+
+    },
+    {
+        "name": "Emily Kinney: This is war",
+        "price": "00.07",
+        "url": "./img/This_Is_War.jpg",
+        "id": "0007",
+        "colour": "red"
+
+    },
+    {
+        "name": "Billie Eilish: Happier than ever",
+        "price": "00.08",
+        "url": "./img/Happier_Than_Ever.png",
+        "id": "0008",
+        "colour": "brown"
+
+    },
+    {
+        "name": "Alise Marton: Mint",
+        "price": "00.09",
+        "url": "./img/Mint.jpg",
+        "id": "0009",
+        "colour": "green"
+
+    },
+    {
+        "name": "Massive Attack: Heligoland ",
+        "price": "00.10",
+        "url": "./img/Heligoland.png",
+        "id": "00010",
+        "colour": "orange"
+
+    }
+]
